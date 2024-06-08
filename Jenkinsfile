@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_REGISTRY = 'pranesh1998'
-        DOCKER_IMAGE = 'NodeJS-app'
+        DOCKER_IMAGE = 'nodejs-app'
         REGISTRY_CREDENTIALS = 'docker-credentials-id' // Jenkins credentials ID for Docker registry
     }
 
